@@ -39,7 +39,6 @@ void searchByParam(string searchParam) {
 
     cout << "Search Results:" << endl;
 
-
     cout << left << setw(8) << setfill(' ') << "Cust ID";
     cout << left << setw(15) << setfill(' ') << "First Name";
     cout << left << setw(15) << setfill(' ') << "Last Name";
@@ -67,5 +66,4 @@ void searchByParam(string searchParam) {
     cout << endl;
     system("Pause");
     delete con, stmt;
-    
 }
